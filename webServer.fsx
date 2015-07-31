@@ -37,8 +37,8 @@ open Suave.Web // for config
 open Suave.Types
 
 type canopyConfig = FSharp.Data.XmlProvider<"""<Config>
-<CanopyPath></CanopyPath>
-<CanopyArguments></CanopyArguments>
+<CanopyPath>C:\canopy.exe</CanopyPath>
+<CanopyArguments>one</CanopyArguments>
 <UseShellExecute>true</UseShellExecute>	
 </Config>""">
 
